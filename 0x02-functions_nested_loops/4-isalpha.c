@@ -7,7 +7,8 @@
   *
   * Return: 1 for alphabetic character or 0 for anything else
 */
-int _isalpha(int c){
+int _isalpha(int c)
+{
 int i;
 for (i = 65; i <= 122; i++)
 {
