@@ -17,22 +17,22 @@ void jack_bauer(void)
 		{
 			if (secs < 10)
 			{
-				printf("0%d:0%d \n", mins, secs);
+				printf("0%d:0%d\n", mins, secs);
 			}
 			else
 			{
-				printf("0%d:%d \n", mins, secs);
+				printf("0%d:%d\n", mins, secs);
 			}
 		}
 		else
 		{
 			if (secs < 10)
                         {
-                                printf("%d:0%d \n", mins, secs);
+                                printf("%d:0%d\n", mins, secs);
                         }
                         else
                         {
-                                printf("%d:%d \n", mins, secs);
+                                printf("%d:%d\n", mins, secs);
                         }
 		}
 	}
