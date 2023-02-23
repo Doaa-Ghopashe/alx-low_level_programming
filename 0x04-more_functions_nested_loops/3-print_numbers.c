@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-  * _print_numbers - Prints numbers [0-9]
+  * print_numbers - Prints numbers [0-9]
   *
   * Return: void
   */
