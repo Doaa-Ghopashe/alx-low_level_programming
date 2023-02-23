@@ -11,13 +11,13 @@ void more_numbers(void)
 int i, j, temp;
 for (i = 0; i < 10; i++)
 {
-for (j = 48; j <= 61; j++)
+for (j = 48; j <= 62; j++)
 {
 temp = j;
 if (temp > 57)
 {
 _putchar(49);
-temp = j - 9;
+temp = j - 10;
 }
 _putchar(temp);
 }
