@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *issuper: this function to check if the c is in uppercase or, otherwise
+ *issuper: this function to check if the uppercase
  *@c: this variable is the ASCII code for some variable
  *
  * Return: Always 0.
