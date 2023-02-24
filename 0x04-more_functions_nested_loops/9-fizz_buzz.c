@@ -2,12 +2,11 @@
 #include "main.h"
 
 /**
- * Fizz_Buzz : this function to print fizz buzz
+ * main - check the code
  *
- * Return: void
+ * Return: Always 0.
  */
-void Fizz_Buzz(void)
-{
+int main(void){
 int i;
 for (i = 1; i <= 100; i++)
 {
@@ -23,14 +22,10 @@ else if (i % 5 == 0)
 {
 printf("Buzz\t");
 }
-else
+else 
 {
 printf("%d\t", i);
 }
 }
-printf("\n");
-}
-int main(void){
-Fizz_Buzz();
 return (0);
 }
