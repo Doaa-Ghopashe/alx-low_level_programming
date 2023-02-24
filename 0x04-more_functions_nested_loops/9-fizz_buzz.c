@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * Main : this function to print numbers [0-100]
+ * Fizz_Buzz : this function to print fizz buzz
  *
- * Return: On success 0.
+ * Return: void
  */
 void Fizz_Buzz(void)
 {
