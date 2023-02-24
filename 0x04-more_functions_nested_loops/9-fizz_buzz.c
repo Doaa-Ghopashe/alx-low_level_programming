@@ -6,48 +6,32 @@
  *
  * Return: On success 0.
  */
-int main(void) {
+void Fizz_Buzz(void)
+{
 int i;
 for (i = 1; i <= 100; i++)
 {
 if (i % 15 == 0)
 {
-_putchar(70);
-_putchar(105);
-_putchar(122);
-_putchar(122);
-_putchar(66);
-_putchar(117);
-_putchar(122);
-_putchar(122);
+printf("FizzBuzz");
 }
 else if (i % 3 == 0)
 {
-_putchar(70);
-_putchar(105);
-_putchar(122);
-_putchar(122);
+printf("Fizz");
 }
 else if (i % 5 == 0)
 {
-_putchar(66);
-_putchar(117);
-_putchar(122);
-_putchar(122);
+printf("Buzz");
 }
 else
 {
-if(i > 10)
-{
-_putchar(49 + (i / 10 - 1));
-_putchar(49 + (i % 10 - 1));
+printf("%d", i);
 }
-else
-{
-_putchar(49 + (i - 1));
+printf(" ");
 }
+printf("\n");
 }
-_putchar(32);
-}
+int main(void){
+Fizz_Buzz();
 return (0);
 }
