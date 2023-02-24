@@ -27,5 +27,6 @@ else
 printf("%d\t", i);
 }
 }
+printf("\n");
 return (0);
 }
